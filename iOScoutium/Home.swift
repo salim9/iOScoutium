@@ -57,7 +57,14 @@ class Home: UIViewController {
                 self.myTable.reloadData()
             
             case .failure(let error):
-                print("Error occured \(error.localizedDescription)")
+                let alertJSON = UIAlertController(title: "Error occured", message: "\(error.localizedDescription)", preferredStyle: .alert)
+                alertJSON.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .default, handler: {_ in
+                    
+                    exit(0)
+                                                                                                                                        
+                }))
+                
+                self.present(alertJSON, animated: true, completion: nil)
                 
                 }
             }
