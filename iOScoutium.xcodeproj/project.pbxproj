@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1715FBBBA8A90B74A6EBB4D0 /* Pods_iOScoutium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9385FF7985B60AAAF7DADB72 /* Pods_iOScoutium.framework */; };
+		390A831C25B8F34900C9B2DA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390A831B25B8F34900C9B2DA /* Home.swift */; };
+		3954477D25BB7344005B57F9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3954477C25BB7344005B57F9 /* GoogleService-Info.plist */; };
+		39688C7D25BB50540073C283 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39688C7C25BB50540073C283 /* Reachability.swift */; };
+		396F5C5E25B9FE7400E142B3 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396F5C5D25B9FE7400E142B3 /* MyTableViewCell.swift */; };
+		39734DC925B882B100780E6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39734DC825B882B100780E6C /* AppDelegate.swift */; };
+		39734DCB25B882B100780E6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39734DCA25B882B100780E6C /* SceneDelegate.swift */; };
+		39734DCD25B882B100780E6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39734DCC25B882B100780E6C /* ViewController.swift */; };
+		39734DD025B882B100780E6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39734DCE25B882B100780E6C /* Main.storyboard */; };
+		39734DD225B882B400780E6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39734DD125B882B400780E6C /* Assets.xcassets */; };
+		39734DD525B882B400780E6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39734DD325B882B400780E6C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F6C2FDB67AE371401536801 /* Pods-iOScoutium.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOScoutium.release.xcconfig"; path = "Target Support Files/Pods-iOScoutium/Pods-iOScoutium.release.xcconfig"; sourceTree = "<group>"; };
+		390A831B25B8F34900C9B2DA /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		3954477C25BB7344005B57F9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		39688C7C25BB50540073C283 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		396F5C5D25B9FE7400E142B3 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		39734DC525B882B100780E6C /* iOScoutium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOScoutium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39734DC825B882B100780E6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39734DCA25B882B100780E6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		39734DCC25B882B100780E6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39734DCF25B882B100780E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39734DD125B882B400780E6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39734DD425B882B400780E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39734DD625B882B400780E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9385FF7985B60AAAF7DADB72 /* Pods_iOScoutium.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOScoutium.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF04BD1654B0AF0ECE27EA4D /* Pods-iOScoutium.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOScoutium.debug.xcconfig"; path = "Target Support Files/Pods-iOScoutium/Pods-iOScoutium.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39734DC225B882B100780E6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1715FBBBA8A90B74A6EBB4D0 /* Pods_iOScoutium.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F66941A54F8AAB98E02704E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9385FF7985B60AAAF7DADB72 /* Pods_iOScoutium.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39734DBC25B882B100780E6C = {
+			isa = PBXGroup;
+			children = (
+				39734DC725B882B100780E6C /* iOScoutium */,
+				39734DC625B882B100780E6C /* Products */,
+				DB4FFF2E5C52EE7ED7EA710E /* Pods */,
+				0F66941A54F8AAB98E02704E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		39734DC625B882B100780E6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39734DC525B882B100780E6C /* iOScoutium.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39734DC725B882B100780E6C /* iOScoutium */ = {
+			isa = PBXGroup;
+			children = (
+				3954477C25BB7344005B57F9 /* GoogleService-Info.plist */,
+				39688C7C25BB50540073C283 /* Reachability.swift */,
+				39734DC825B882B100780E6C /* AppDelegate.swift */,
+				39734DCA25B882B100780E6C /* SceneDelegate.swift */,
+				39734DCC25B882B100780E6C /* ViewController.swift */,
+				39734DCE25B882B100780E6C /* Main.storyboard */,
+				396F5C5D25B9FE7400E142B3 /* MyTableViewCell.swift */,
+				39734DD125B882B400780E6C /* Assets.xcassets */,
+				39734DD325B882B400780E6C /* LaunchScreen.storyboard */,
+				39734DD625B882B400780E6C /* Info.plist */,
+				390A831B25B8F34900C9B2DA /* Home.swift */,
+			);
+			path = iOScoutium;
+			sourceTree = "<group>";
+		};
+		DB4FFF2E5C52EE7ED7EA710E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF04BD1654B0AF0ECE27EA4D /* Pods-iOScoutium.debug.xcconfig */,
+				0F6C2FDB67AE371401536801 /* Pods-iOScoutium.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39734DC425B882B100780E6C /* iOScoutium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39734DD925B882B400780E6C /* Build configuration list for PBXNativeTarget "iOScoutium" */;
+			buildPhases = (
+				79A184F9018C6A65D2E3706D /* [CP] Check Pods Manifest.lock */,
+				39734DC125B882B100780E6C /* Sources */,
+				39734DC225B882B100780E6C /* Frameworks */,
+				39734DC325B882B100780E6C /* Resources */,
+				FA883A36E3D430E06EC0E15F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOScoutium;
+			productName = iOScoutium;
+			productReference = 39734DC525B882B100780E6C /* iOScoutium.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39734DBD25B882B100780E6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					39734DC425B882B100780E6C = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 39734DC025B882B100780E6C /* Build configuration list for PBXProject "iOScoutium" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39734DBC25B882B100780E6C;
+			productRefGroup = 39734DC625B882B100780E6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39734DC425B882B100780E6C /* iOScoutium */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39734DC325B882B100780E6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39734DD525B882B400780E6C /* LaunchScreen.storyboard in Resources */,
+				3954477D25BB7344005B57F9 /* GoogleService-Info.plist in Resources */,
+				39734DD225B882B400780E6C /* Assets.xcassets in Resources */,
+				39734DD025B882B100780E6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79A184F9018C6A65D2E3706D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOScoutium-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA883A36E3D430E06EC0E15F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOScoutium/Pods-iOScoutium-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOScoutium/Pods-iOScoutium-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOScoutium/Pods-iOScoutium-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39734DC125B882B100780E6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39734DCD25B882B100780E6C /* ViewController.swift in Sources */,
+				39734DC925B882B100780E6C /* AppDelegate.swift in Sources */,
+				39688C7D25BB50540073C283 /* Reachability.swift in Sources */,
+				390A831C25B8F34900C9B2DA /* Home.swift in Sources */,
+				39734DCB25B882B100780E6C /* SceneDelegate.swift in Sources */,
+				396F5C5E25B9FE7400E142B3 /* MyTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		39734DCE25B882B100780E6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39734DCF25B882B100780E6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39734DD325B882B400780E6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39734DD425B882B400780E6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39734DD725B882B400780E6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39734DD825B882B400780E6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39734DDA25B882B400780E6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF04BD1654B0AF0ECE27EA4D /* Pods-iOScoutium.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 677D8BH28M;
+				INFOPLIST_FILE = iOScoutium/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[arch=*]" = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.salimuzun.iOScoutium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39734DDB25B882B400780E6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F6C2FDB67AE371401536801 /* Pods-iOScoutium.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 677D8BH28M;
+				INFOPLIST_FILE = iOScoutium/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.salimuzun.iOScoutium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39734DC025B882B100780E6C /* Build configuration list for PBXProject "iOScoutium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39734DD725B882B400780E6C /* Debug */,
+				39734DD825B882B400780E6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39734DD925B882B400780E6C /* Build configuration list for PBXNativeTarget "iOScoutium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39734DDA25B882B400780E6C /* Debug */,
+				39734DDB25B882B400780E6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39734DBD25B882B100780E6C /* Project object */;
+}
